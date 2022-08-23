@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.icon{
+  @apply h-[15px] w-[15px] flex justify-center items-center  rounded-sm self-end;
+}
+.shadow1{
+  -webkit-box-shadow: 10px 11px 85px -70px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 11px 85px -70px rgba(0,0,0,0.75);
+  box-shadow: 10px 11px 85px -70px rgba(0,0,0,0.75);
+}
+.formInput input{
+  padding: 5px;
+  border:none;
+  border-bottom:1px solid gray;
+
+}
